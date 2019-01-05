@@ -22,9 +22,6 @@ public class WeightSort {
                     strings[j-1] = tmp;
                 }
                 else if(sumDigit(strings[j]) == sumDigit(strings[j-1])){
-//                        Integer.parseInt(strings[j].substring(0,1)) < Integer.parseInt(strings[j-1].substring(0,1))){
-//                    System.out.println(sumDigit(strings[j])+" "+sumDigit(strings[j-1]));
-//                    System.out.println(strings[j].substring(0) +" "+ strings[j-1].substring(0));
                     List<String> list = new ArrayList<>();
                     list.add(strings[j-1]);
                     list.add(strings[j]);
